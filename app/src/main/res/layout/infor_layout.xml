@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe5fc">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/sorryicon"
+        android:padding="10dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn là: "
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:textColor="@color/broze"
+            />
+        <RadioButton
+            android:id="@+id/cMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nam"
+            android:textSize="20sp"
+            android:textColor="@color/broze"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/cFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Nữ"
+            android:textColor="@color/broze"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/editTxtYourName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Tên của bạn"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/editTxtNameYourLover"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:hint="Tên của người ấy"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btnOutput"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:text="  Xuất \n tin nhắn"
+        android:textColor="#fff"
+        android:background="@drawable/btn_output"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:onClick="setBtnOutputClick"/>
+
+
+</LinearLayout>

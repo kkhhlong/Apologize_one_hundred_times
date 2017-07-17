@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip  android:clipOrientation="vertical"
+    android:drawable="@drawable/heart"
+    android:gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</clip>
